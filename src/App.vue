@@ -270,8 +270,17 @@ body {
   font-style: italic;
 }
 
-/* Responsive adjustments */
+
 @media (max-width: 600px) {
+  .input-group{
+    flex-direction: column;
+    gap:2rem
+  }
+  .todo-input {
+    height: 3rem; 
+    font-size: 1rem;
+    padding: 0.5rem; 
+  }
   .todo-card {
     padding: 1.5rem 1rem;
   }
